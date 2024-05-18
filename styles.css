@@ -1,0 +1,61 @@
+body {
+    background-color: #202124; /* Tema inicial escuro */
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#content {
+    background-color: #333333;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#texto {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+#botoes {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+/* Estilo para tema claro */
+body.tema-claro {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Estilo para tema escuro */
+body.tema-escuro {
+    background-color: #202124;
+    color: #ffffff;
+}
+
+#tema {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 999;
+}
